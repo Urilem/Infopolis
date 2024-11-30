@@ -8,3 +8,5 @@
 # The backend is made using PHP, MySQL and JavaScript.
 
 # Anyone can use this code providing the corresponding credits.
+# To use this you must use an Apache server or any else that can run PHP and MySQL
+
