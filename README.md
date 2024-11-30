@@ -6,3 +6,5 @@
 
 # The frontend is made using pure HTML and CSS.
 # The backend is made using PHP, MySQL and JavaScript.
+
+# Anyone can use this code providing the corresponding credits.
