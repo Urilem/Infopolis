@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+:root {
+    --primary: #23272c;
+    --secodary: #FFED86;
+    --warning: #f31919;
+    --table-primary: #c9c9c9;
+    --table-secondary: #f2f2f2;
+}
+
+
+
+body {
+    background-color: var(--primary);
+    color: wheat;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vh;
+    height: 5vh;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: var(--secodary);
+    font-size: xx-small;
+    color: var(--primary);
+}
+
+
+
+
+table {
+    table-layout: fixed;
+    width: 98%;
+    max-height: 80%;
+    border-spacing: 15px; 
+    border-collapse: collapse; 
+    border-radius: 10px;
+    overflow: hidden;
+    color: var(--primary);
+    box-shadow: 0 0 18px 2px black;
+}
+th {
+    max-width: 150px; /* Ajusta este valor según tus necesidades */
+    overflow: auto;
+    word-wrap: break-word;
+    border: 1px gray solid;
+}
+thead tr        { 
+    height:60px;
+    background:var(--secodary);
+    font-size:16px;
+  }
+tr {
+    background-color: var(--table-primary);
+}
+tr:nth-child(even) {
+    background-color: var(--table-secondary);
+}
+
+
+
+.buttons {
+    position: fixed;
+    bottom: 2px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+.action button {
+    width: 30vh;
+    height: 7vh;
+    margin: 5px;
+    border: unset;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+    background-color: var(--secodary);
+    transition: .6s;
+    box-shadow: 0 0 18px 2px black;
+}
+.buttons button:hover {
+    transform: scale(1.05);
+    transition: .6s;
+}
+.logout button {
+    width: 30vh;
+    height: 7vh;
+    margin: 5px;
+    border: unset;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+    background-color: var(--warning);
+    transition: .6s;
+    box-shadow: 0 0 18px 2px black;
+}
